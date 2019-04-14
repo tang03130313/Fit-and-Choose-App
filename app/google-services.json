@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "859375394064",
+    "firebase_url": "https://fitandchoose.firebaseio.com",
+    "project_id": "fitandchoose",
+    "storage_bucket": "fitandchoose.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859375394064:android:13834c548e1ba78f",
+        "android_client_info": {
+          "package_name": "com.tang.fitandchoose"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "859375394064-t4crgo508iq6aa9vtv7fc46f84ocqqr0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tang.fitandchoose",
+            "certificate_hash": "50afe4ce981454054b2123e6d8282b1ecbe46964"
+          }
+        },
+        {
+          "client_id": "859375394064-93jbl2o6fgaaa9a6b9nlf0tbki8e11gl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTn7yJs_PZ6LZeqbI53oDf1W0GJKlNgGk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "859375394064-93jbl2o6fgaaa9a6b9nlf0tbki8e11gl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

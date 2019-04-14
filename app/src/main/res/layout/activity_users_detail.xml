@@ -1,0 +1,254 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/green"
+    tools:context=".Users_detailActivity">
+
+    <!-- WEIGHT INPUT SECTION -->
+    <ScrollView android:id="@+id/contencrollView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="@string/text_15"
+                android:gravity="center_vertical"
+                android:textSize="30sp"
+                />
+            <EditText
+                android:id="@+id/users_detail_name"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="1"
+                android:text=""
+                android:hint="@string/hint_2"
+                android:gravity="center_vertical|end"
+                android:textSize="30sp"
+                android:maxLength="10"
+                />
+
+            <TextView
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="@string/text_16"
+                android:gravity="center_vertical"
+                android:textSize="30sp"
+                />
+            <RadioGroup
+                android:id="@+id/rg"
+                android:layout_width="match_parent"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/rb_boy"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/text_38"
+                    android:textSize="25sp"/>
+                <RadioButton
+                    android:id="@+id/rb_gril"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/text_39"
+                    android:textSize="25sp"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="@string/text_17"
+                android:gravity="center_vertical"
+                android:textSize="30sp"
+                />
+            <EditText
+                android:id="@+id/users_detail_age"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="1"
+                android:text=""
+                android:inputType= "number"
+                android:hint="@string/hint_2"
+                android:gravity="center_vertical|end"
+                android:textSize="30sp"
+                android:maxLength="3"
+                />
+            <TextView
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="@string/text_18"
+                android:gravity="center_vertical"
+                android:textSize="30sp"
+                />
+            <EditText
+                android:id="@+id/users_detail_height"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="1"
+                android:inputType= "numberDecimal"
+                android:text=""
+                android:hint="@string/hint_2"
+                android:gravity="center_vertical|end"
+                android:textSize="30sp"
+                android:maxLength="5"
+                />
+            <TextView
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="@string/text_19"
+                android:gravity="center_vertical"
+                android:textSize="30sp"
+                />
+            <EditText
+                android:id="@+id/users_detail_weight"
+                android:layout_height="0dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="1"
+                android:inputType= "numberDecimal"
+                android:text=""
+                android:hint="@string/hint_2"
+                android:gravity="center_vertical|end"
+                android:textSize="30sp"
+                android:maxLength="5"
+                />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/text_5"
+                        android:textSize="20sp"
+                        android:gravity="center_vertical|center_horizontal">
+
+                    </TextView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textview_users_detail_BMR"
+                            android:layout_height="match_parent"
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:text="0"
+                            android:textSize="20sp"
+                            android:maxLength="7"
+                            android:gravity="center_vertical|center_horizontal"
+                            >
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:text="@string/text_7"
+                            android:textSize="20sp"
+                            android:gravity="center_vertical"
+                            >
+                        </TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.05"
+                    />
+                <LinearLayout
+                    android:id="@+id/users_detail_finish"
+                    android:layout_height="51dp"
+                    android:layout_width="51dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@xml/background_padding_circle_shadow">
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="1dp"/>
+                    <LinearLayout
+                        android:layout_height="50dp"
+                        android:layout_width="50dp"
+                        android:background="@xml/background_padding_circle">
+                        <ImageView
+                            android:layout_height="30dp"
+                            android:layout_width="30dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="10dp"
+                            android:src="@mipmap/play_button"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+    </ScrollView>
+
+    <!-- WEIGHT INPUT EDIT TEXT FIELD RECEIVES FOCUS -->
+
+
+    <!-- TEXTVIEWS FOR BASE COST LABEL AND COMPUTATION  -->
+
+    <!-- TEXTVIEWS FOR ADDED COST LABEL AND COMPUTATION  -->
+
+
+    <!-- TEXTVIEWS FOR THE TOTAL COST LABEL AND COMPUTATION  -->
+
+</RelativeLayout>

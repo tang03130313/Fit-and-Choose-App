@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fit &amp; Choose</string>
+    <string name="hint_1">點選螢幕繼續</string>
+    <string name="hint_2">空</string>
+    <string name="text_1">用戶選擇</string>
+    <string name="text_2">編輯</string>
+    <string name="text_3">Fit</string>
+    <string name="text_4">Choose</string>
+    <string name="text_5">基礎代謝率</string>
+    <string name="text_6">今日已攝取</string>
+    <string name="text_7">kcal</string>
+    <string name="text_8">新增食物</string>
+    <string name="text_9">分析菜單</string>
+    <string name="text_10">餐別</string>
+    <string name="text_11">品項</string>
+    <string name="text_12">份量</string>
+    <string name="text_13">新增</string>
+    <string name="text_14">選擇編輯對象</string>
+    <string name="text_15">用戶名</string>
+    <string name="text_16">性別</string>
+    <string name="text_17">年齡</string>
+    <string name="text_18">身高(cm)</string>
+    <string name="text_19">體重(kg)</string>
+    <string name="text_20">完成</string>
+    <string name="text_21">今天</string>
+    <string name="text_22">基礎代謝率</string>
+    <string name="text_23">-</string>
+    <string name="text_24">已攝取</string>
+    <string name="text_25">=</string>
+    <string name="text_26">尚可攝取</string>
+    <string name="text_27">早餐</string>
+    <string name="text_28">午餐</string>
+    <string name="text_29">晚餐</string>
+    <string name="text_30">點心/其他</string>
+    <string name="text_31">下一個</string>
+    <string name="text_32">想吃</string>
+    <string name="text_33">算了吧</string>
+    <string name="text_34">開動</string>
+    <string name="text_35">地址</string>
+    <string name="text_36">營業時間</string>
+    <string name="text_37">電話</string>
+    <string name="text_38">男</string>
+    <string name="text_39">女</string>
+    <string name="text_40">搜尋食物</string>
+    <string name="text_41">店名</string>
+    <string name="text_42">熱量消耗</string>
+    <string name="text_43">總結數據</string>
+    <string name="text_44">立即開始</string>
+    <string name="text_45">不是會員？</string>
+    <string name="text_46">註冊</string>
+    <string name="banner_ad_id">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="question_card">Question</string>
+    <string name="answer_card">Answer</string>
+    <string name="search_hint">Search for recipes</string>
+
+</resources>

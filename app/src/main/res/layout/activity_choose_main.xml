@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/green2"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_id">
+
+    </com.google.android.gms.ads.AdView>
+    <!-- WEIGHT INPUT SECTION -->
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TableRow
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </TableRow>
+        <ImageView
+            android:id="@+id/imageView_choose_main_img"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:src="@drawable/america_1_2" />
+        <TableRow
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_weight="0.5"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/text_31"
+                android:textSize="25sp"
+                android:visibility="invisible"/>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1" >
+                <LinearLayout
+                    android:layout_height="71dp"
+                    android:layout_width="71dp"
+                    android:background="@xml/background_padding_circle_shadow">
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="1dp"/>
+                    <LinearLayout
+                        android:id="@+id/button_choose_next"
+                        android:layout_height="70dp"
+                        android:layout_width="70dp"
+                        android:background="@xml/background_padding_circle_green">
+                        <ImageView
+                            android:layout_height="50dp"
+                            android:layout_width="50dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="10dp"
+                            android:src="@mipmap/random_2"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1" >
+            <LinearLayout
+                android:layout_height="71dp"
+                android:layout_width="71dp"
+                android:background="@xml/background_padding_circle_shadow">
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="1dp"/>
+                <LinearLayout
+                    android:id="@+id/button_choose_want"
+                    android:layout_height="70dp"
+                    android:layout_width="70dp"
+                    android:background="@xml/background_padding_circle_green">
+                    <ImageView
+                        android:layout_height="50dp"
+                        android:layout_width="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@mipmap/play_button_2"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+
+    </TableLayout>
+
+    <!-- WEIGHT INPUT EDIT TEXT FIELD RECEIVES FOCUS -->
+
+
+    <!-- TEXTVIEWS FOR BASE COST LABEL AND COMPUTATION  -->
+
+    <!-- TEXTVIEWS FOR ADDED COST LABEL AND COMPUTATION  -->
+
+
+    <!-- TEXTVIEWS FOR THE TOTAL COST LABEL AND COMPUTATION  -->
+
+</RelativeLayout>

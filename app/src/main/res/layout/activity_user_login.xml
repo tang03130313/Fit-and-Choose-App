@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/green"
+    tools:context=".Users_detailActivity">
+
+    <!-- WEIGHT INPUT SECTION -->
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <TableRow
+            android:layout_weight="0.1"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="35dp"
+            >
+            <TextView
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:text="登入"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="30sp"
+                android:textColor="@color/royalblue"
+                android:textStyle="bold"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_weight="0.1"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/lightblue"
+            >
+            <EditText
+                android:id="@+id/fieldEmail"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:hint="Email"
+                android:textSize="25sp"
+                android:inputType="textEmailAddress"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_weight="0.1"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:background="@color/lightblue"
+            >
+
+            <EditText
+                android:id="@+id/fieldPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:hint="password"
+                android:textSize="25sp"
+                android:inputType="textPassword" />
+        </TableRow>
+        <TableRow
+            android:layout_weight="0.3"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/text_45"
+                android:gravity="end|center_vertical"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:id="@+id/to_register"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="0.3"
+                android:text="@string/text_46"
+                android:textColor="@color/dark_green"
+                android:textSize="18sp"
+                android:gravity="start|center_vertical"
+                />
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:textColor="@color/dark_green"
+                android:gravity="start|center_vertical"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_weight="0.05"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="30dp"
+            >
+           <TextView
+               android:layout_height="match_parent"
+               android:layout_width="0dp"
+               android:layout_weight="2"/>
+           <LinearLayout
+               android:id="@+id/button_send"
+               android:layout_height="61dp"
+               android:layout_width="61dp"
+               android:background="@xml/background_padding_circle_shadow">
+               <View
+                   android:layout_width="0.5dp"
+                   android:layout_height="1dp"/>
+                <LinearLayout
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:background="@xml/background_padding_circle">
+                <ImageView
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@mipmap/play_button"
+                   />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="2"/>
+        </TableRow>
+        <TableRow
+            android:layout_height ="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.2">
+
+        </TableRow>
+
+    </TableLayout>
+
+    <!-- WEIGHT INPUT EDIT TEXT FIELD RECEIVES FOCUS -->
+
+
+    <!-- TEXTVIEWS FOR BASE COST LABEL AND COMPUTATION  -->
+
+    <!-- TEXTVIEWS FOR ADDED COST LABEL AND COMPUTATION  -->
+
+
+    <!-- TEXTVIEWS FOR THE TOTAL COST LABEL AND COMPUTATION  -->
+
+</RelativeLayout>
